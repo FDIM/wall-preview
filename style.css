@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #F1F1F1;
+}
+#wall{
+  position: relative;
+  width: 100vh;
+  height: 100vh;
+  margin: 0 auto;
+  background: #fff;
+}
+#wall > div.background{
+  opacity: 0.01;
+  position: absolute;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+    
+}
+#wall > div.screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
